@@ -18,6 +18,8 @@ A standalone marketing site (3 pages) for Kintaba. Built to deploy at **kintaba.
 
 Then connect the domain: **Vercel → Project → Settings → Domains → add `kintaba.app`** and follow the DNS steps. `vercel.json` (included) turns on clean URLs, so `/privacy` and `/contact` work without `.html`.
 
+On Vercel, the HTML pages use `Cache-Control: no-store` so browsers fetch the latest published page instead of reusing an older copy. Static assets such as images remain cacheable.
+
 (Netlify works the same way. Drag the folder into app.netlify.com.)
 
 ## Domain setup (the Option B you chose)
