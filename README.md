@@ -23,8 +23,8 @@ Then connect the domain: **Vercel → Project → Settings → Domains → add `
 ## Domain setup (the Option B you chose)
 
 - **This site** lives at **kintaba.app**.
-- **Your app** stays exactly where it is: **www.kintaba.app**. Nothing to move.
-- The **"Get started, it's free"** and **"Open app"** buttons already link to `https://www.kintaba.app` (the app). No change needed.
+- **Your app** stays at **app.kintaba.app**. Nothing to move.
+- The **"Get started, it's free"** and **"Open app"** buttons link to `https://app.kintaba.app`.
 
 ## What's inside
 
