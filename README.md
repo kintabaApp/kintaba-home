@@ -1,15 +1,15 @@
-# Kintaba — website deploy package
+# Kintaba: website deploy package
 
 A standalone marketing site (3 pages) for Kintaba. Built to deploy at **kintaba.app**.
 
 - `index.html` → `/` (landing)
-- `privacy.html` → `/privacy` (interim draft — see note below)
+- `privacy.html` → `/privacy` (interim draft; see note below)
 - `contact.html` → `/contact` (contact form, wired to Web3Forms)
 
-## Before you deploy — 2 quick things
+## Before you deploy: 2 quick things
 
 1. **Contact form key.** Go to **web3forms.com**, enter **info@kintaba.app**, and get a free Access Key (they email it to you). Open `contact.html`, find `YOUR_WEB3FORMS_ACCESS_KEY`, and paste your key in its place. Submissions will then be emailed to info@kintaba.app. (A fallback `mailto:info@kintaba.app` link is already on the page.)
-2. *(optional)* Swap the **hero image** / **font** if you finalise them — see "Swapping later".
+2. *(optional)* Swap the **hero image** / **font** if you finalise them; see "Swapping later".
 
 ## Deploy to Vercel (recommended)
 
@@ -18,13 +18,13 @@ A standalone marketing site (3 pages) for Kintaba. Built to deploy at **kintaba.
 
 Then connect the domain: **Vercel → Project → Settings → Domains → add `kintaba.app`** and follow the DNS steps. `vercel.json` (included) turns on clean URLs, so `/privacy` and `/contact` work without `.html`.
 
-(Netlify works the same way — drag the folder into app.netlify.com.)
+(Netlify works the same way. Drag the folder into app.netlify.com.)
 
 ## Domain setup (the Option B you chose)
 
 - **This site** lives at **kintaba.app**.
-- **Your app** stays exactly where it is: **www.kintaba.app** — nothing to move.
-- The **"Get started — it's free"** and **"Open app"** buttons already link to `https://www.kintaba.app` (the app). No change needed.
+- **Your app** stays exactly where it is: **www.kintaba.app**. Nothing to move.
+- The **"Get started, it's free"** and **"Open app"** buttons already link to `https://www.kintaba.app` (the app). No change needed.
 
 ## What's inside
 
@@ -36,7 +36,7 @@ Then connect the domain: **Vercel → Project → Settings → Domains → add `
 | `og-image.png` | social share card (shows when the link is shared) |
 | `vercel.json` | clean-URL config |
 
-## Privacy page — important
+## Privacy page: important
 
 `/privacy` is an **interim draft**. Keep its draft banner until the real policy is written, and **have a lawyer review it before relying on it** (Kintaba records data about the people users send to, and you're in the EU → GDPR applies). The page lists exactly what to confirm before publishing.
 
