@@ -26,7 +26,7 @@
   .page h1,.page h2,.page h3{font-family:var(--head);font-weight:700;margin:0;letter-spacing:-.02em}
   .page .wrap{max-width:660px;margin:0 auto;padding:0 32px}
   .page .eyebrow{font-family:var(--body);display:inline-block;font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--brand-lite)}
-  .page .site-head{max-width:660px;margin:0 auto;padding:18px 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(42,35,32,.08)}
+  .page .site-head{position:sticky;top:0;z-index:10;max-width:660px;margin:0 auto;padding:18px 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(42,35,32,.08);background:var(--cream)}
   .page .back{font-family:var(--body);font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--low);display:inline-flex;align-items:center;gap:7px}
   .page .back:hover{color:var(--brand)}
   .page .h-hero{font-size:44px;line-height:1.08;font-weight:400}
@@ -71,7 +71,7 @@
       <input type="hidden" name="from_name" value="Kintaba website">
       <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0">
       <div style="display:flex;gap:16px;flex-wrap:wrap">
-        <label class="field" style="flex:1 1 220px"><span class="lbl">Your name</span><input class="inp" type="text" name="name" placeholder="Nana Poku" autocomplete="name"></label>
+        <label class="field" style="flex:1 1 220px"><span class="lbl">Your name</span><input class="inp" type="text" name="name" placeholder="e.g. Alex Morgan" autocomplete="name"></label>
         <label class="field" style="flex:1 1 220px"><span class="lbl">Email <span style="color:var(--brand)">*</span></span><input class="inp" type="email" name="email" placeholder="you@email.com" autocomplete="email" required></label>
       </div>
       <label class="field"><span class="lbl">What's it about?</span>
